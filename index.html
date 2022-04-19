@@ -1,133 +1,94 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ход королевы</title>
+    <title>Home page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Libre+Baskerville:wght@700&family=Source+Serif+Pro:wght@300;400&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" 
+        referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/styles.css">
+    
 </head>
 <body>
-    <header>
-        <a href="">Ход королевы</a>
-        <nav>
-            <ul>
-                <li><a href="">Сюжет</a></li>
-                <li><a href="">Актёрский состав</a></li>
-                <li><a href="">Эпизоды</a></li>
+    <header class="header">
+        <div class="container">
+        <nav class="header-nav">
+        <a href="" class="logo link">The Queen's <span class="accent">Gambit</span></a>
+            <ul class="header-list list">
+                <li class="header-item"><a href="index.html" class="header-link link">About</a></li>
+                <li class="header-item"><a href="cast.html" class="header-link link">Cast</a></li>
+                <li class="header-item"><a href="episodes.html" class="header-link link">Episodes</a></li>
             </ul>
         </nav>
-        <a href="https://www.netflix.com/search?q=queen&jbv=80234304" target="_blank" rel="noopener noreferrer">Смотреть на Netflix</a>
+        </div>
     </header>
+
     <main>
-        <section>
-            <h1>Ход королевы</h1>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/ipvcTSSEnWI" title="YouTube video player"
-                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-            <p>
-            «Ход королевы» рассказывает историю шахматного вундеркинда-сироты Бет Хармон, которая стремится стать величайшей
-            шахматисткой мира, но при этом борется с эмоциональными проблемами, а также с наркотической и алкогольной зависимостью.
-            </p>
+        <section class="hero">
+            <div class="container">
+            <h1 class="hero-title">The Queen's Gambit</h1>
+            <a href="https://www.netflix.com/search?q=queen&jbv=80234304" target="_blank" rel="noopener noreferrer"
+                class="hero-link link">Watch on Netflix</a>
+            </div>
         </section>
-        <section>
-            <h2>Актёрский состав</h2>
-            <ul>
-                <li>
-                    <img src="./image/benny-1.jpg" width="290" height="290" alt="Бенни Уоттс">
-                    <h3>Бенни Уоттс</h3>
-                    <p>Томас Броди-Сангстер</p>
+        <section class="response">
+            <div class="container">
+            <h2 class="response-title visually-hidden">Critical response</h2>
+            <ul class="response-list list">
+                <li class="response-item">
+                    <h3 class="response-second-title">Rotten Tomatoes</h3>
+                    <p class="response-text">"Its moves aren't always perfect, but between Anya Taylor-Joy's magnetic performance, incredibly realized period
+                    details, and emotionally intelligent writing, The Queen's Gambit is an absolute win."</p>
                 </li>
-                <li>
-                    <img src="./image/beth-1.jpg" width="290" height="290" alt="Бет Хармон">
-                    <h3>Бет Хармон</h3>
-                    <p>Аня Тейлор-Джой</p>
+                <li class="response-item">
+                    <h3 class="response-second-title">Rolling Stone</h3>
+                    <p class="response-text">"An aesthetically beautiful project with several superb performances, all in service to a story that starts to feel
+                    padded long before the end comes."</p>
                 </li>
-                <li>
-                    <img src="./image/harry-1.jpg" width="290" height="290" alt="Гарри Белтик">
-                    <h3>Гарри Белтик</h3>
-                    <p>Гарри Меллинг</p>
+                <li class="response-item">
+                    <h3 class="response-second-title">Variety</h3>
+                    <p class="response-text">"The Queen's Gambit manages to personalize the game and its players thanks to clever storytelling and, in Anya
+                    Taylor-Joy, a lead actor so magnetic that when she stares down the camera lens, her flinty glare threatens to cut right
+                    through it."</p>
                 </li>
-            </ul>
-            <ul>
-                <li>
-                    <img src="./image/townes-1.jpg" width="290" height="290" alt="Таунс">
-                    <h3>Таунс</h3>
-                    <p>Джейкоб Форчун-Ллойд</p>
-                </li>
-                <li>
-                    <img src="./image/alma-1.jpg" width="290" height="290" alt="Альма Уитли">
-                    <h3>Альма Уитли</h3>
-                    <p>Мариэль Хеллер</p>
-                </li>
-                <li>
-                    <img src="./image/vasily-1.jpg" width="290" height="290" alt="Василий Боргов">
-                    <h3>Василий Боргов</h3>
-                    <p>Марцин Дорочиньский</p>
+                <li class="response-item">
+                    <h3 class="response-second-title">Entertainment Weekly</h3>
+                    <p class="response-text">"Taylor-Joy excels in the quiet moments, her eyelids narrowing as she decimates an opponent, her whole body
+                    physicalizing angry desperation when the game turns against her."</p>
                 </li>
             </ul>
+            </div>
         </section>
-        <section>
-            <h2>Эпизоды</h2>
-            <ul>
-                <li>
-                    <h3>Эпизод 1</h3>
-                    <h4>«Дебюты»</h4>
-                    <p>Очутившись в приюте в возрасте 9 лет, Бет развивает сверхъестественные способности к игре в шахматы и растущую
-                    зависимость от зелёных транквилизаторов, которые там дают детям.</p>
-                    <a href="https://www.netflix.com/watch/80243261?trackId=14277283&tctx=-97%2C-97%2C%2C%2C%2C%2C%2C" target="_blank" rel="noopener noreferrer">Смотреть на Netflix</a>
-                </li>
-                <li>
-                    <h3>Эпизод 2</h3>
-                    <h4>«Размены»</h4>
-                    <p>Внезапно погрузившись в новую запутанную жизнь в пригороде, Бет-подросток изучает своих одноклассников и вынашивает план
-                    участия в шахматном турнире.</p>
-                    <a href="https://www.netflix.com/watch/81093610?trackId=14277283&tctx=-97%2C-97%2C%2C%2C%2C%2C%2C" target="_blank" rel="noopener noreferrer">Смотреть на Netflix</a>
-                </li>
-                <li>
-                    <h3>Эпизод 3</h3>
-                    <h4>«Сдвоенные пешки»</h4>
-                    <p>Поездка в Цинциннати вовлекает Бет и ее мать в вихрь путешествий, а достижения девушки в шахматном мире удостаиваются
-                    освещения в прессе. Бет нацелилась на Открытый чемпионат США в Лас-Вегасе.</p>
-                    <a href="https://www.netflix.com/watch/81093611?trackId=14277283&tctx=-97%2C-97%2C%2C%2C%2C%2C%2C" target="_blank" rel="noopener noreferrer">Смотреть на Netflix</a>
-                </li>
-                <li>
-                    <h3>Эпизод 4</h3>
-                    <h4>«Миттельшпиль»</h4>
-                    <p>Русский класс открывает дверь в новый мир. В Мехико Бет встречает устрашающего Боргова, а ее мать заигрывает с другом по
-                    переписке.</p>
-                    <a href="https://www.netflix.com/watch/81093612?trackId=14277283&tctx=-97%2C-97%2C%2C%2C%2C%2C%2C" target="_blank" rel="noopener noreferrer">Смотреть на Netflix</a>
-                </li>
-                <li>
-                    <h3>Эпизод 5</h3>
-                    <h4>«Вилка»</h4>
-                    <p>Вернувшись домой в Кентукки, потрясенная Бет воссоединяется с бывшим соперником, который предлагает помочь ей отточить
-                    свою игру перед чемпионатом США.</p>
-                    <a href="https://www.netflix.com/watch/81093613?trackId=14277283&tctx=-97%2C-97%2C%2C%2C%2C%2C%2C" target="_blank" rel="noopener noreferrer">Смотреть на Netflix</a>
-                </li>
-                <li>
-                    <h3>Эпизод 6</h3>
-                    <h4>«Откладывание партии»</h4>
-                    <p>После тренировки с Бенни в Нью-Йорке Бет направляется в Париж на матч-реванш с Борговым. Но дикая ночь загоняет ее в
-                    саморазрушительную спираль.</p>
-                    <a href="https://www.netflix.com/watch/81093614?trackId=14277283&tctx=-97%2C-97%2C%2C%2C%2C%2C%2C" target="_blank" rel="noopener noreferrer">Смотреть на Netflix</a>
-                </li>
-                <li>
-                    <h3>Эпизод 7</h3>
-                    <h4>«Эндшпиль»</h4>
-                    <p>Визит старого друга заставляет Бет считаться со своим прошлым и переосмыслить свои приоритеты. Близится самый важный
-                    матч в ее жизни.</p>
-                    <a href="https://www.netflix.com/watch/81301714?trackId=14277283&tctx=-97%2C-97%2C%2C%2C%2C%2C%2C" target="_blank" rel="noopener noreferrer">Смотреть на Netflix</a>
-                </li>
-            </ul>
+        <section class="plot">
+            <div class="container">
+            <h2 class="plot-title">The plot</h2>
+            <p class="plot-text">The Queen's Gambit is based on the book of the same name by Walter Tevis. The action begins in the 1950s with Beth Harmon,
+            a very withdrawn and sullen eight-year-old orphan who, at first glance, does not stand out from the other inhabitants of
+            the orphanage. So it was until the girl played chess. This event revealed in her a real grandmaster, and by the age of
+            sixteen, she took part in the American Open Championship. However, in addition to talent in the intellectual game, she
+            developed a drug addiction. Beth has to fight her demons and her future depends on this war, where there are no rules.</p>
+            </div>
         </section>
     </main>
+
     <footer>
-    <a href="">Ход королевы</a>
-    <ul>
-        <li><a href="">Сюжет</a></li>
-        <li><a href="">Актёрский состав</a></li>
-        <li><a href="">Эпизоды</a></li>
-    </ul>
+        <div class="container">
+    <nav>
+       <a href="">The Queen's Gambit</a>
+       <ul>
+        <li><a href="index.html">About</a></li>
+        <li><a href="cast.html">Cast</a></li>
+        <li><a href="episodes.html">Episodes</a></li>
+       </ul>
+    </nav>
+    </div>
     </footer>
 </body>
 </html>

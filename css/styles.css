@@ -1,0 +1,146 @@
+:root {
+    --main-color: #341a06;
+    --second-color: #f4ebde;
+    --accent-color: #8b1919; 
+}
+
+body {
+    font-family: "Sourse Serif Pro", 'Times New Roman', Times, serif;
+    color: var(--main-color);
+    font-size: 18px;
+    background-color: var(--second-color);
+}
+
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+}
+
+ul,ol {
+    padding-left: 0;
+    margin: 0;
+}
+
+img {
+    display: block;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 1200px;
+    outline: 1px solid tomato;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+/*-----------HEADER------------*/
+
+.header {
+    border-bottom: 1px solid #450202be;
+}
+
+.logo {
+    font-family: 'Libre Baskerville';
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+    margin-right: 93px;
+}
+
+.accent {
+    color: var(--accent-color);
+}
+
+.header-link {
+    font-family: 'Source Serif Pro';
+    font-weight: 400;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--main-color);
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.header-item:not(:last-child) {
+    margin-right: 45px;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-list {
+    display: flex;
+}
+
+.header-link:hover,
+.header-link:focus {
+    color: var(--accent-color);
+}
+
+/*-----------HERO------------*/
+
+.hero {
+    background-color: var(--main-color);
+    padding-top: 210px;
+    padding-bottom: 210px;
+}
+
+.hero-title {
+    font-family: 'Libre Baskerville';
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--second-color);
+    margin-bottom: 30px;
+}
+.hero-link {
+    font-family: 'Source Serif Pro';
+    font-weight: 400;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--second-color);
+    display: block;
+    text-align: center;
+    cursor: pointer;
+}
+
+.hero-link:hover,
+.hero-link:focus {
+    color: var(--accent-color);
+}
+
+/*-----------RESPONSE------------*/
+
+
+
+/*-----------PLOT------------*/
+
